@@ -16,9 +16,9 @@ PODS:
     - AWSCore (= 2.36.2)
   - AWSS3 (2.36.2):
     - AWSCore (= 2.36.2)
-  - SQLite.swift (0.12.2):
-    - SQLite.swift/standard (= 0.12.2)
-  - SQLite.swift/standard (0.12.2)
+  - SQLite.swift (0.15.3):
+    - SQLite.swift/standard (= 0.15.3)
+  - SQLite.swift/standard (0.15.3)
   - Starscream (4.0.8)
   - SwiftLint (0.55.0)
 
@@ -27,7 +27,7 @@ DEPENDENCIES:
   - AWSCore (~> 2.36.0)
   - AWSMobileClient (~> 2.36.0)
   - AWSS3 (~> 2.36.0)
-  - SQLite.swift (~> 0.12.2)
+  - SQLite.swift (~> 0.15.3)
   - SwiftLint
 
 SPEC REPOS:
@@ -51,10 +51,10 @@ SPEC CHECKSUMS:
   AWSCore: 389e60725f6cd23873ffa6a6292c8f38a940fe11
   AWSMobileClient: aad2c8dfeea9806e72000d2be187f2680073a400
   AWSS3: eb7863c11386653894f722f27f540efb310db04c
-  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  SQLite.swift: 8d054987f02728cc912b0eb5a9659650573a65a2
   Starscream: 19b5533ddb925208db698f0ac508a100b884a1b9
   SwiftLint: c5b49076d727b772434318c236548f0a1110c299
 
-PODFILE CHECKSUM: 5e218425b76767a14793a18c26000168492e6ce0
+PODFILE CHECKSUM: 2d3f41d3f58d0ab89cf2948911f7efa96cbf02f6
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.15.2
