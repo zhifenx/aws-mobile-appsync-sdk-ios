@@ -27,7 +27,7 @@ DEPENDENCIES:
   - AWSCore (~> 2.36.0)
   - AWSMobileClient (~> 2.36.0)
   - AWSS3 (~> 2.36.0)
-  - SQLite.swift (~> 0.15.3)
+  - SQLite.swift (from `https://github.com/zhifenx/SQLite.swift`)
   - SwiftLint
 
 SPEC REPOS:
@@ -39,9 +39,17 @@ SPEC REPOS:
     - AWSCore
     - AWSMobileClient
     - AWSS3
-    - SQLite.swift
     - Starscream
     - SwiftLint
+
+EXTERNAL SOURCES:
+  SQLite.swift:
+    :git: https://github.com/zhifenx/SQLite.swift
+
+CHECKOUT OPTIONS:
+  SQLite.swift:
+    :commit: c6673edfe38a31528f953d4e251ab515a1495e8a
+    :git: https://github.com/zhifenx/SQLite.swift
 
 SPEC CHECKSUMS:
   AppSyncRealTimeClient: 35c0d2ae28234a9f5daba5dc31402acf45ad802f
@@ -55,6 +63,6 @@ SPEC CHECKSUMS:
   Starscream: 19b5533ddb925208db698f0ac508a100b884a1b9
   SwiftLint: c5b49076d727b772434318c236548f0a1110c299
 
-PODFILE CHECKSUM: 2d3f41d3f58d0ab89cf2948911f7efa96cbf02f6
+PODFILE CHECKSUM: 507043795fc6a992cff6f3891a5c3c3da7268cd6
 
 COCOAPODS: 1.15.2
